@@ -1,0 +1,31 @@
+.citation{
+  height: 404px;
+
+  background: url(../../images/bg-citation.jpg) fixed;
+  background-size: cover;
+
+
+  h3{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+    width: 1140px;
+    height: 262px;
+    color: var(--color-white);
+    text-align: left;
+  }
+  p{
+    padding-left: 190px;
+    text-align: left;
+
+    height: 24px;
+
+    font-family: var(--font-principale);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+  }
+}

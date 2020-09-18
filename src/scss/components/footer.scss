@@ -1,0 +1,19 @@
+footer{
+
+  height: 144px;
+
+  background: #000000;
+
+  p, a{
+    padding-top: 60px;
+    margin:auto;
+
+    font-family: var(--font-texte);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+  }
+}
