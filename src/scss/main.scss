@@ -8,6 +8,12 @@
 
 // SETTINGS
 // Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
+@import "settings/font";
+@import "settings/color";
+@import "settings/spacing";
+@import "settings/headings";
+@import "settings/p";
+@import "settings/links";
 
 
 
@@ -15,7 +21,8 @@
 // GENERIC
 // Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
 
-
+//@import "normalize";
+@import "generic/reset";
 
 
 // ELEMENTS
@@ -26,7 +33,13 @@
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
-
+@import "components/header";
+@import "components/hero";
+@import "components/wrapper";
+@import "components/citation";
+@import "components/footer";
+@import "components/interet";
+@import "components/carte";
 
 
 
